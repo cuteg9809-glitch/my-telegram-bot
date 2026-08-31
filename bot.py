@@ -19,10 +19,10 @@ ADMIN_IDS = {
 DB_PATH = os.getenv("DB_PATH", "amazon_gc_bot.db")
 
 CHANNELS = [
-    ("📢 Join @primeloote", "https://t.me/primeloote", "@primeloote"),
-    ("📢 Join @primebackp", "https://t.me/primebackp", "@primebackp"),
-    ("📢 Join @sheinstockprime", "https://t.me/sheinstockprime", "@sheinstockprime"),
-    ("📢 Join @pexoearner", "https://t.me/pexoearner", "@pexoearner"),
+    "@primeloote",
+    "@primebackp",
+    "@sheinstockprime",
+    "@pexoearner"
 ]
 
 REF_BONUS = int(os.getenv("REF_BONUS", "20"))
